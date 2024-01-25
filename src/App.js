@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import News from './components/News';
+import Header from './components/Header';
+import Carousel from './components/Carousel';
+import Footer from './components/Footer';
+import Cambia from './components/Cambia';
+import Estadistica from './components/Estadistica';
+import Bancos from './components/Bancos';
+import TipoCambo from './components/TipoCambo';
+import Social from './components/Social';
+import Main from './components/Main';
+import Opiniones from './components/Opiniones';
+import Video from './components/Video';
+import Up from './components/Up';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <News/>
+      <Header />
+      <Main/>
+      <Bancos/>
+      <TipoCambo/>
+      <Cambia />
+      <Estadistica />
+      <Carousel/>
+      <Opiniones/>
+      <Video/>
+      <Social/>
+      <Up/>
+      <Footer/>
+    </>
   );
 }
 
